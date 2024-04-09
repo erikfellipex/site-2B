@@ -1,0 +1,52 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.cabecalho{
+  background-color: rgb(188, 130, 221);
+align-items: center;
+display: flex;
+justify-content: space-around;
+}
+
+
+
+.botao{
+
+  padding: 1em;
+background-color: #998b8b;
+width: 120px;
+color: blueviolet;
+border-radius: 40px 40px 40px 40px;
+}
+.botao:hover{
+
+ background-color: blueviolet;
+color: black;
+}
+
+.banner-principal {
+   background-image: url(img/banner\ principal.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 450px;
+}
+.botao-banner{
+    width: 250px;
+    height: 350px;
+    background-color: aliceblue;
+    font-size: 40px;
+   border:none;
+}
+.botao:hover{
+   background-color: rgb(102, 148, 189);
+   
+
+
+
+}

@@ -1,0 +1,132 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.cabecalho{
+  background-color: rgb(188, 130, 221);
+align-items: center;
+display: flex;
+justify-content: space-around;
+}
+
+
+
+.botao{
+
+  padding: 1em;
+background-color: #998b8b;
+width: 120px;
+color: blueviolet;
+border-radius: 40px 40px 40px 40px;
+}
+.botao:hover{
+
+ background-color: blueviolet;
+color: black;
+}
+
+.banner-principal {
+   background-image: url(img/banner\ principal.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 450px;
+}
+
+.botao-banner{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(220, 227, 233);
+    font-size: 40px;
+   border:none;
+
+}
+
+.botao:hover{
+   background-color: rgb(102, 148, 189);
+   
+}
+
+.grid{
+display: grid;
+grid-template-columns: repeat(8,1fr) ;
+grid-template-rows: repeat(8,1fr) ; ;
+max-height: 99vh;
+}
+.imgld{
+grid-row: 1;
+grid-column:1/6 ;
+background-color: rgb(202, 141, 214);
+text-align: center;
+}
+
+.texto-1{
+grid-row: 2;
+grid-column: 1/6;
+background-color: rgb(202, 141, 214);
+font-size: 30px;
+height: 200px;
+text-align: center;
+display:flex ;
+justify-content: center;
+align-items: center;
+}
+
+
+.texto-2{
+grid-row: 3;
+grid-column: 1/6;
+background-color: rgb(202, 141, 214);
+text-align: center;
+font-size: 30px;
+height: 500px;
+display:flex ;
+justify-content:center ;
+align-items: center;}
+
+.imagem-mahatma{
+grid-column: 6/9;
+grid-row:1/6;
+}
+.email{
+grid-row: 1;
+grid-column: 6/9;
+align-items: center;
+text-align: center;
+justify-content: center;
+display: flex;
+}
+
+.barra-email{
+width: 300px;
+height: 6/9;
+border-radius: 40px;
+font-size: 18px;
+background-color: #998b8b;
+}
+
+.senha{
+  grid-row: 1;
+  grid-column: 6/9;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  }
+
+
+
+.barra-senha{
+grid-row: 2;
+grid-column: 6/9;
+align-items: center;
+text-align: center;
+justify-content: center;
+display: flex;
+}
+
+
